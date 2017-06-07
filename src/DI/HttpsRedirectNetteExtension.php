@@ -29,6 +29,7 @@ class HttpsRedirectNetteExtension extends CompilerExtension
 			$url = $this->getService(\'http.request\')->getUrl();
 
 			if (? && ? !== $url->getScheme()) {
+				$url->setPort(NULL);
 				$url->setScheme(?);
 				$this->getService(\'http.response\')->redirect((string) $url, ?);
 				exit(0);
