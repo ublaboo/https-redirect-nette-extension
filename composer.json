@@ -1,0 +1,26 @@
+{
+	"name": "ublaboo/https-redirect-nette-extension",
+	"type": "library",
+	"description": "Nette extension for simply redirecting user to the same url with different schema",
+	"keywords": ["security", "https-redirect-nette-extension", "extension", "nette", "http", "https", "redirect"],
+	"homepage": "http://ublaboo.paveljanda.com/https-redirect-nette-extension",
+	"license": ["MIT"],
+	"support": {
+		"issues": "https://github.com/ublaboo/https-redirect-nette-extension/issues"
+	},
+	"authors": [
+		{
+			"name": "Pavel Janda",
+			"homepage": "http://paveljanda.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Ublaboo\\HttpsRedirectNetteExtension\\": "src/"
+		}
+	},
+	"require": {
+		"nette/di"          : "^2.3|^2.4",
+		"nette/http"        : "^2.3|^2.4"
+	}
+}
