@@ -3,7 +3,7 @@
 	"type": "library",
 	"description": "Nette extension for simply redirecting user to the same url with different schema",
 	"keywords": ["security", "https-redirect-nette-extension", "extension", "nette", "http", "https", "redirect"],
-	"homepage": "http://ublaboo.paveljanda.com/https-redirect-nette-extension",
+	"homepage": "https://ublaboo.org/https-redirect-nette-extension",
 	"license": ["MIT"],
 	"support": {
 		"issues": "https://github.com/ublaboo/https-redirect-nette-extension/issues"
